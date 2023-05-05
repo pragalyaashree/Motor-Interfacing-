@@ -48,6 +48,7 @@ The L298N is a dual H-Bridge motor driver which allows speed and direction contr
 
 ![image](https://user-images.githubusercontent.com/71547910/235333546-0cfa7d3a-24a4-483b-bbef-b78fcaa05670.png)
 ## PROGRAM:
+```
 #define in1 6
 #define in2 7
 #define button 4
@@ -79,10 +80,10 @@ void loop() {
   }
   
 }
+```
 ## CIRCUIT DIAGRAM:
-https://user-images.githubusercontent.com/113031811/235618752-c40db7f1-bb35-4458-b303-8d7ddc40adb4.jpeg
-
+![iot 3](https://user-images.githubusercontent.com/128135934/236459105-787892d4-bec0-4384-8707-4c401929b89f.jpeg)
 ## OUTPUT:
-
+![iot 4](https://user-images.githubusercontent.com/128135934/236459246-88b0133f-43c4-4077-a523-b61c1f1d907e.jpeg)
 ## RESULT:
 Thus the motor was controlled using driver circuits, relays and Arduino UNO controller.
